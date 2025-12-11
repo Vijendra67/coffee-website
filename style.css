@@ -367,19 +367,6 @@ align-items: center;
 justify-content: center;
 gap: 20px;
 }
-/* .menu_img{
-height: 250px;
-width: 100%;
-overflow: hidden;
-border: 1px solid black;
-}
-.menu_img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      
-  object-position: center; 
-  display: block;
-} */
 
 .iteam .menu_img{
   height: 250px;
@@ -575,28 +562,7 @@ transition: 0.2s;
   align-items: center;
   justify-content: space-between;
 }
-/* }
-.first_continar {
 
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
- align-items: center;
-justify-content: center; 
-gap: 30px;
-}
-.second_continar{
-  
-}
-.first{
-   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px; 
-}
-.first i{
-  font-size: 15px;
-} */
 
 .first p{
   font-size: 15px;
@@ -742,14 +708,15 @@ font-size: 16px;
   font-weight: 500;
 }
 .second_continar button:hover {
-  background: #fff;       /* white background */
-  color: #000;            /* text ka color change */
+  background: #fff;      
+  color: #000;            
   border: 1px solid #000;
 }
 
 /* Click (active) par */
 .second_continar button:active {
-  background: #fff;       /* white background */
+  background: #fff;       
   color: #000;
-  transform: scale(0.97); /* optional: click effect */
+  transform: scale(0.97);
+
 }
