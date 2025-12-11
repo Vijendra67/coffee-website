@@ -29,26 +29,12 @@
     }
   }, true);
 
-  // If user reloads with hash in URL (unlikely now), avoid auto-activating by scroll:
-  // We will *not* auto-scroll or auto-active on load — so do nothing here.
 
-    //  var swiper = new Swiper(".mySwiper", {
-    //   cssMode: true,
-    //   navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev",
-    //   },
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //   },
-    //   mousewheel: true,
-    //   keyboard: true,
-    // });
 
     
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,   // ⭐ 3 slides ek saath show honge
-    spaceBetween: 0,   // ⭐ slides ke beech gap (optional)
+    slidesPerView: 3,   
+    spaceBetween: 0,   
 
     cssMode: true,
     navigation: {
@@ -62,3 +48,4 @@
     mousewheel: true,
     keyboard: true,
   });
+
